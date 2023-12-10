@@ -1,8 +1,8 @@
 {
-  "name": "wiki-dark",
-  "displayName": "Wiki dark",
+  "name": "wiki-night",
+  "displayName": "Wiki Night",
   "version": "0.0.1",
-  "description": "dark mode for wikipedia",
+  "description": "night mode for Wikipedia",
   "author": "jaywhenx@gmail.com",
   "scripts": {
     "dev": "plasmo dev",
@@ -10,6 +10,7 @@
     "test": "plasmo test"
   },
   "dependencies": {
+    "@plasmohq/storage": "^1.9.0",
     "plasmo": "0.84.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -20,10 +21,19 @@
     "@types/node": "20.9.0",
     "@types/react": "18.2.37",
     "@types/react-dom": "18.2.15",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
     "prettier": "3.0.3",
+    "tailwindcss": "^3.3.6",
     "typescript": "5.2.2"
   },
   "manifest": {
+    "permissions": [
+      "activeTab",
+      "storage",
+      "tabs",
+      "scripting"
+    ],
     "host_permissions": [
       "https://*/*"
     ]
