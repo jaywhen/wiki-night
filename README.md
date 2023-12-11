@@ -2,6 +2,7 @@
 
 ## TODOs
 
+- add release action
 - add icon & name
 - add css comments
 - add night mode for popup

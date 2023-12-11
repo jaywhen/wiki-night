@@ -97,7 +97,7 @@ function IndexPopup() {
     <div className="w-40 h-18 overflow-auto justify-center items-center flex p-1 box-border">
       <div className="text-center">
         <span className="showText text-gray-800">
-          Hey! We only sopport wikipedia pages!
+          Hey! We only support <strong>Wikipedia</strong> pages!
         </span>
         <span className="popEmoji">&nbsp;🤠</span>
       </div>
