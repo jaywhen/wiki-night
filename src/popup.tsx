@@ -46,7 +46,7 @@ function IndexPopup() {
   };
 
   return isWiki ? (
-    <div className="w-40 max-h-56 overflow-auto flex flex-col gap-2 p-2 box-border">
+    <div className="w-40 min-h-[94px] max-h-56 overflow-auto flex flex-col gap-2 p-2 box-border">
       {/* togg if open */}
       <div className="flex items-center h-7 w-full justify-between">
         <span className="text-sm font-medium select-none text-gray-900">
